@@ -2,6 +2,9 @@
   <div class="home">
     <div v-for="article in articles" :key="article.id">
       <div>
+        <h3>記事一覧</h3>
+      </div>
+      <div>
         <p>{{article.title}}</p>
         <span>{{article.createdAt.toDateString()}}</span>
       </div>
